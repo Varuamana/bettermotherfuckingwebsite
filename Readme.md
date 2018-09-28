@@ -2,4 +2,4 @@ Il s'agit d'une copie du site : http://bettermotherfuckingwebsite.com/ réalisé
 
 Cette version a pour but de me familiariser avec le codage en HTML, CSS et Javascript.
 
-Ce fichier peut donc être différent du site d'origine en raison d'erreurs ou tout simplement de choix personnels.
+Le fichier a été modifié pour ouvrir une fenêtre popup vous redirigeant vers une vidéo.

@@ -135,12 +135,41 @@
             <a href="https://twitter.com/gabehammersmith">him.</a>
         </p>
 
-        <p> 
-            Enclencher le Mode Psychédélique : 
-            <input type="button" value="Mode Psychédélique" />
-            
-        </p>
+        <p> Enclencher le Mode Psychédélique : </p>
+        
+        <button onclick="myFunction()">Mode Psychédélique</button>
 
+    <script>
+        button.onclick = myFunction;
+
+        function myFunction() {
+            document.getElementsByTagName("BODY")[0].style.backgroundColor = "fuchsia";
+   
+            var a = document.getElementsByTagName("P");
+                var b;
+                    for (b = 0; b < a.length; b++) {
+                        a[b].style.color = "blue";
+                    } 
+
+            var c = document.getElementsByTagName("H1");
+                var d;
+                    for (d = 0; d < c.length; d++) {
+                        c[d].style.color = "green";
+                    } 
+            
+            var e = document.getElementsByTagName("H2");
+                var f;
+                    for (f = 0; f < e.length; f++) {
+                        e[f].style.color = "green";
+                    }
+            
+            var g = document.getElementsByTagName("H3");
+                var h;
+                    for (h = 0; h < g.length; h++) {
+                        g[h].style.color = "green";
+                    }
+            }
+    </script>
 
 
         <script async="" src="//www.google-analytics.com/analytics.js"></script>
